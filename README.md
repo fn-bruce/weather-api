@@ -22,7 +22,7 @@ pip3 install -r requirements.txt
 Inside the weather-api repository, run this command to grab the weathers average max temperature per city:
 
 ~~~
-python3 weather_forcast_average.py
+python3 weather_forecast_average.py
 ~~~
 
 The output should look like:

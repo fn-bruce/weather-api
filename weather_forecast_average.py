@@ -20,10 +20,8 @@ def main():
         "https://www.metaweather.com/api/location/2442047/",
         "https://www.metaweather.com/api/location/2366355/",
     ]
-    threads = []
     for url in urls:
         t = threading.Thread(target=get_avg_max_temp, args=(url,))
-        threads.append(t)
         t.start()
 
 

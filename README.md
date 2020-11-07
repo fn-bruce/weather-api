@@ -19,7 +19,7 @@ pip3 install -r requirements.txt
 
 ## Basic usage
 
-Inside the weather-api repository, run this command to grab the weather forcase max temperature average:
+Inside the weather-api repository, run this command to grab the weathers average max temperature per city:
 
 ~~~
 python3 weather_forcast_average.py
